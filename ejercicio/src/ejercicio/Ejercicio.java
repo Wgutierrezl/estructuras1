@@ -15,14 +15,24 @@ public class Ejercicio {
 
     public static void main(String[] args) 
     {
-        List<String> lista=new LinkedList<>();
+        List<Integer> lista=new LinkedList<>();
         
-        for(int i=0;i<3;i++)
+        int num1=0;
+        int num2=1;
+        int num3=0;
+        String texto="";
+        int fibonacci;
+        
+        for(int i=0;i<5;i++)
         {
-            lista.add("DIGITE UN NOMBRE");
+            fibonacci=num1+num2;
+            num1=num2;
+            num3=fibonacci;
+            texto=texto+"("+num1+" "+num2+" "+fibonacci+")";
+            
         }
        
-        JOptionPane.showMessageDialog(null, lista);
+        JOptionPane.showMessageDialog(null, texto);
     }
     
 }
