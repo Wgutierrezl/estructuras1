@@ -8,13 +8,14 @@ package ejerciciopersonas;
 import javax.swing.JOptionPane;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.LinkedList;
 public class Ejerciciopersonas 
 {
 
   
     public static void main(String[] args) 
     {
-        List<personal> lista=new ArrayList<personal>();
+        List<personal> lista=new LinkedList<personal>();
         String nombre = null;
         int edad = 0;
         String cedula = null;
