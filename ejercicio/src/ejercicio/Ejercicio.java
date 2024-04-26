@@ -31,6 +31,9 @@ public class Ejercicio {
             texto=texto+"("+num1+" "+num2+" "+fibonacci+")";
             
         }
+        
+        
+        JOptionPane.showMessageDialog(null, lista);
        
         JOptionPane.showMessageDialog(null, texto);
     }
